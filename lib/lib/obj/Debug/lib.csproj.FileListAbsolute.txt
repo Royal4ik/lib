@@ -1,0 +1,8 @@
+C:\Users\Artem\source\repos\lib\lib\bin\Debug\lib.xml
+C:\Users\Artem\source\repos\lib\lib\bin\Debug\lib.dll
+C:\Users\Artem\source\repos\lib\lib\bin\Debug\lib.pdb
+C:\Users\Artem\source\repos\lib\lib\obj\Debug\lib.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\lib\lib\obj\Debug\lib.dll
+C:\Users\Artem\source\repos\lib\lib\obj\Debug\lib.pdb
+C:\Users\Artem\source\repos\lib\lib\obj\Debug\lib.Properties.Resources.resources
+C:\Users\Artem\source\repos\lib\lib\obj\Debug\lib.csproj.GenerateResource.cache

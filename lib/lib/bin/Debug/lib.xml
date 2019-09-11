@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lib</name>
+    </assembly>
+    <members>
+        <member name="T:ds.test.impl.IPlugin">
+            <summary>
+            The main interface for accessing plugins.
+            Contains all properties and methods for working with the plugins
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.PluginName">
+            <summary>
+             Returns the plugin name
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.Version">
+            <summary>
+            Returns the plugin version
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.Image">
+            <summary>
+            Returns the plugin icon
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.IPlugin.Description">
+            <summary>
+            Returns the plugin description
+            </summary>
+        </member>
+        <member name="M:ds.test.impl.IPlugin.Run(System.Int32,System.Int32)">
+            <summary>
+            Performs an operation on two integers, depending on the plugin type
+            </summary>
+            <param name="input1">Integer</param>
+            <param name="input2">Integer</param>
+            <returns>Result of processing two numbers</returns>
+        </member>
+        <member name="T:ds.test.impl.Plugins">
+            <summary>
+            Static class containing all available plugins
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Plugins.PluginsCount">
+            <summary>
+            Returns the total number of plugins
+            </summary>
+        </member>
+        <member name="P:ds.test.impl.Plugins.GetPluginsNames">
+            <summary>
+            Returns an array containing the names of all plugins
+            </summary>
+        </member>
+        <member name="M:ds.test.impl.Plugins.GetPlugin(System.String)">
+            <summary>
+            Returns a plugin by its name
+            </summary>
+            <param name="pluginName">Plugin name</param>
+            <returns>The plugin with interface IPlugin</returns>
+            <exception cref="T:System.Exception"> Thrown when there is no plugin corresponding to the plugin name entered</exception>
+        </member>
+        <member name="T:lib.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:lib.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:lib.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:lib.Properties.Resources.NewPlugin">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:lib.Properties.Resources.PluginMultiplication">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:lib.Properties.Resources.PluginSubtraction">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:lib.Properties.Resources.PluginSum">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
